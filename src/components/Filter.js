@@ -17,7 +17,7 @@ const Filter = () => {
   };
 
   return (
-    <div>
+    <div data-testid="filter">
       <h3>Filter</h3>
       <input aria-label="filter-text" onChange={handleFilterTextChange} />
       {data

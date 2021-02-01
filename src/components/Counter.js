@@ -4,7 +4,7 @@ const Counter = () => {
   const [value, setValue] = useState(0);
 
   return (
-    <div>
+    <div data-testid="counter">
       <h3>Counter</h3>
       Counter Value: {value}
       <button onClick={() => setValue(value + 1)}>+1</button>
